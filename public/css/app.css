@@ -28,6 +28,7 @@ header{
 	display: flex;
     justify-content: space-between;
     align-items: center;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .my-table{
@@ -79,7 +80,27 @@ header{
 .product-body{
 	width: 50%;
 	padding: 1em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+.product-title{
+	display: flex;
+	justify-content: space-between;
+}
+.bestel{
+	display: flex;
+	flex-direction: colum
+	
+}
+.korting{
+	color: red;
+}
+.img{
+	width: 10px;
+	height: auto;
+}
+	
 
 .products .form-control{
 	margin-top: 1em;

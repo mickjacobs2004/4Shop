@@ -11,6 +11,9 @@
     <title>Winkel - Scouting Raamsdonksveer</title>
 
     <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/narrow-jumbotron.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -19,8 +22,8 @@
 <body>
     <div class="container">
       <header class="header d-flex justify-content-between align-items-center">
-        <h3 class="text-muted"><a href="{{ route('home') }}" class="no-link">4sshop mick jacobs</a></h3>
-        <a href="{{ route('cart') }}"><img class="cart" src="{{ url('img/cart.png') }}" alt=""></a>
+        <h3 class="text-muted"><a href="{{ route('home') }}" class="no-link">4Shop mick jacobs</a></h3>
+        <a href="{{ route('cart') }}"><img class="cart" src="{{ url('img/cart.png') }}" alt=" "><img src="/img/4S-Logo-Compact-Small.png" alt=""width="50" height="50"></a>
       </header>
 
       <main role="main">
@@ -43,7 +46,7 @@
       </main>
 
       <footer class="footer">
-        <p><strong>Mail bij vragen: <a href="mailto:winkelbeheer@scoutingrveer.nl">winkelbeheer@scoutingrveer.nl</a></strong> &middot; S.B.B.S. namens Scouting Raamsdonksveer, Sint Janstraat 201 4714ad Sprundel, KvK: 41100325, tel: 0162769096.</p>
+        <p><strong>Mail bij vragen: <a href="mailto:info@4shop.nl">info@4shop.nl</a></strong> &middot; S.B.B.S. namens Scouting 4shop , Sint Janstraat 201 4714ad Sprundel, KvK: 41100325, tel: 0162769096.</p>
       </footer>
 
     </div>
