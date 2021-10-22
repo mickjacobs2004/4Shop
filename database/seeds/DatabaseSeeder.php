@@ -5,6 +5,7 @@ use App\Product;
 use App\Type;
 use App\Size;
 use App\User;
+use App\Category;
 
 class DatabaseSeeder extends Seeder
 {
